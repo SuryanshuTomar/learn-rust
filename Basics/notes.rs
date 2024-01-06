@@ -108,5 +108,31 @@
 // 2. It can optionally accepts data.
 // 3. It can optionally returns data.
 // 4. It is used to writing more readable code.
+// 5. Functions in rust are HOF(Higher order functions) meaning functions are treated just like variables and can be used as variable to passed into other functions and can be used to store into other variables as well.
 
 
+// -> Syntax -
+// fn[keyword] [functiona_name] (parameter1: data_type, .....parametern:data_type) -> return_data_type {
+//   [function_body]
+//   .................
+//   .................
+//   .................
+//   [return_statement] // This return statement should be the last statement in the function body block.
+// }
+
+// --------------------------------------------------------------------------
+// => MACROS (The println macro)-
+
+// 1. Macros are just like functions but instead of executing the code they expand into additional code.
+// 2. println (Prints/displays) information to the terminal.
+// 3. Macros use an exclamation point to call/invoke.
+
+// -> Syntax for println macro -
+// 1. Normal print - print!([value])
+// 2. Next Line Print - println!([value]) -> it will print value in new line
+// 3. Print Value with variable - println!("{}", variable_name)
+// 4. Print Value in debug mode - println!("{:?}", variable_name)
+// 5. Better way of printing - println!("{variable_name}")
+// 6. Better in debug mode - println!("{variable_name:?}")
+
+// Note - ! after a print represents that it is a macro
