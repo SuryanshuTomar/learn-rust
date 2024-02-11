@@ -109,7 +109,7 @@
 // 5. Functions in rust are HOF(Higher order functions) meaning functions are treated just like variables and can be used as variable to passed into other functions and can be used to store into other variables as well.
 
 // -> Syntax -
-// fn[keyword] [functiona_name] (parameter1: data_type, .....parametern:data_type) -> return_data_type {
+// fn[keyword] [function_name] (parameter1: data_type, .....parametern:data_type) -> return_data_type {
 //   [function_body]
 //   .................
 //   .................
@@ -145,7 +145,7 @@
 // 1. Repetitive execution of any piece of code is called "Looping" or "Iteration"
 // 2. Rust supports five loop expressions:
 //   a. A loop expression denotes an infinite loop.
-//   b. A while expression loops until a predicate is false.
+//   b. A while expression loop executes until a predicate is false.
 //   c. A while let expression tests a pattern.
 //   d. A for expression extracts values from an iterator, looping until the iterator is empty.
 //   e. A labelled block expression runs a loop exactly once, but allows exiting the loop early with break.
